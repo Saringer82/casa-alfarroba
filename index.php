@@ -18,33 +18,63 @@
 </head>
 
 <body>
-
+<div id="home"></div>
 <div class="top-menu">
     <div class="container">
-        <!-- Static navbar -->
+        <!-- Fixed navbar -->
         <div class="navbar" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="navbar-brand"><img src="./assets/images/logo-white.png" alt="Casa Alfarroba" title="Casa Alfarroba" /></a>
-                </div>
-                <div class="navbar-collapse collapse" id="nav-bar">
-                    <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#ameneties">Ameneties</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#leisure">Leisure</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div><!--/.container-fluid -->
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#home" class="navbar-brand"><img src="assets/images/logo-white.png" alt="Casa Alfarroba" title="Casa Alfarroba" /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#amenities">Amenities</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#leisure">Leisure</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
         </div><!--/.navbar -->
     </div> <!-- /container -->
+</div>
+
+<header>
+    <div class="title">
+        <h1>Casa Alfarroba</h1>
+        <p>Beautiful country villa set on a hectare of land in the Eastern Algarve</p>
+    </div>
+</header>
+
+<?php include ("./sections/about.inc"); ?>
+
+<?php include ("./sections/amenities.inc"); ?>
+
+<?php include ("./sections/gallery.inc"); ?>
+
+<?php include ("./sections/leisure.inc"); ?>
+
+<?php include ("./sections/contact.inc"); ?>
+
+<div class="footer" >
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <div class="footer_bottom_content">
+                    <span id="footer-line">Copyright © <?php echo date("Y");?> <a href="#home">Casa Alfarroba</a></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="js/jquery.min.js" type="text/javascript"></script>
