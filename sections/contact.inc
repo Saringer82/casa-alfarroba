@@ -1,37 +1,17 @@
 <div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="templatemo-line-header head_contact">
-                <div class="text-center">
-                    <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">CONTACT US</span>
-                    <hr class="team_hr team_hr_right hr_gray"/>
+    <div class="section">
+        <div class="container">
+            <h1>Contact</h1>
+            <div class="row">
+                <div class="col-md-8">
+
                 </div>
-            </div>
-
-            <div class="col-md-8">
-                <div class="templatemo-contact-map" id="map-canvas"> </div>
-                <div class="clearfix"></div>
-                <i>You can find us on 80 Dagon Studio, Yankin Street, <span class="txt_orange">Digital Estate</span> in Yangon.</i>
-            </div>
-            <div class="col-md-4 contact_right">
-                <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit pendisse as a molesti.</p>
-                <p><img src="images/location.png" alt="icon 1" /> 80 Dagon Studio, Yakin Street, Digital Estate</p>
-                <p><img src="images/phone1.png"  alt="icon 2" /> 090-080-0110</p>
-                <p><img src="images/globe.png" alt="icon 3" /><a class="link_orange" href="#"><span class="txt_orange">www.company.com</span></a></p>
-                <form class="form-horizontal" action="#">
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Your Name..." maxlength="40" />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Your Email..." maxlength="40" />
-                    </div>
-                    <div class="form-group">
-                        <textarea  class="form-control" style="height: 130px;" placeholder="Write down your message..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-orange pull-right">SEND</button>
-                </form>
-
-            </div>
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</div><!-- /#templatemo-contact -->
+                <div class="col-md-4">
+                    <p><i class="fas fa-user"></i>David Patterson</p>
+                    <p><i class="fas fa-phone"></i>+ 44 (0)1494 722648</p>
+                    <p><i class="fas fa-envelope"></i>d.patterson@talk21.com</p>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+</div>
