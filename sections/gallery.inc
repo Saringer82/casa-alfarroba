@@ -6,50 +6,85 @@
 
                 <div class="tz-gallery">
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="./images/park.jpg">
-                                <img src="./images/park.jpg" alt="Park">
+                            <a class="lightbox" href="./assets/gallery/exterior_1.jpg">
+                                <img src="./assets/gallery/exterior_1.jpg" alt="Park">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="./images/bridge.jpg">
-                                <img src="./images/bridge.jpg" alt="Bridge">
+                            <a class="lightbox" href="./assets/gallery/villa_1.jpg">
+                                <img src="./assets/gallery/villa_1.jpg" alt="Park">
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-4">
-                            <a class="lightbox" href="./images/tunnel.jpg">
-                                <img src="./images/tunnel.jpg" alt="Tunnel">
+                            <a class="lightbox" href="./assets/gallery/garden_1.jpg">
+                                <img src="./assets/gallery/garden_1.jpg" alt="Park">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="./images/coast.jpg">
-                                <img src="./images/coast.jpg" alt="Coast">
+                            <a class="lightbox" href="./assets/gallery/garden_2.jpg">
+                                <img src="./assets/gallery/garden_2.jpg" alt="Park">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href= ./images/rails.jpg">
-                                <img src="./images/rails.jpg" alt="Rails">
+                            <a class="lightbox" href="./assets/gallery/garden_3.jpg">
+                                <img src="./assets/gallery/garden_3.jpg" alt="Park">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="./images/traffic.jpg">
-                                <img src="./images/traffic.jpg" alt="Traffic">
+                            <a class="lightbox" href="./assets/gallery/garden_4.jpg">
+                                <img src="./assets/gallery/garden_4.jpg" alt="Park">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="./images/rocks.jpg">
-                                <img src="./images/rocks.jpg" alt="Rocks">
+                            <a class="lightbox" href="./assets/gallery/garden_5.jpg">
+                                <img src="./assets/gallery/garden_5.jpg" alt="Park">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="./images/benches.jpg">
-                                <img src="./images/benches.jpg" alt="Benches">
+                            <a class="lightbox" href="./assets/gallery/garden_6.jpg">
+                                <img src="./assets/gallery/garden_6.jpg" alt="Park">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="./images/sky.jpg">
-                                <img src="./images/sky.jpg" alt="Sky">
+                            <a class="lightbox" href="./assets/gallery/exterior_2.jpg">
+                                <img src="./assets/gallery/exterior_2.jpg" alt="Park">
                             </a>
                         </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./assets/gallery/exterior_2.jpg">
+                            <img src="./assets/gallery/pool.jpg" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./assets/gallery/exterior_2.jpg">
+                            <img src="./assets/gallery/interior_1.jpg" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./assets/gallery/exterior_2.jpg">
+                            <img src="./assets/gallery/interior_2.jpg" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./assets/gallery/exterior_2.jpg">
+                            <img src="./assets/gallery/interior_3.jpg" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./assets/gallery/exterior_2.jpg">
+                            <img src="./assets/gallery/interior_4.jpg" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./assets/gallery/exterior_2.jpg">
+                            <img src="./assets/gallery/villa_2.jpg" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./assets/gallery/exterior_2.jpg">
+                            <img src="./assets/gallery/villa_3.jpg" alt="Park">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

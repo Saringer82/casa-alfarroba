@@ -4,9 +4,19 @@
     <list default="true" id="73463151-6644-4a34-ba2d-c2e07c1bee54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/beach.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/beach.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/benches.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bridge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/coast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/park.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rails.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rocks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/traffic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tunnel.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sections/gallery.inc" beforeDir="false" afterPath="$PROJECT_DIR$/sections/gallery.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thumbnail/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thumbnail/thumbnail-gallery.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sections/gallery.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="450">
+              <caret line="84" column="62" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -37,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-957">
-              <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+            <state relative-caret-position="141">
+              <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -95,11 +105,6 @@
               <item name="casa-alfarroba" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="casa-alfarroba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="casa-alfarroba" type="462c0819:PsiDirectoryNode" />
-              <item name="sections" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -151,16 +156,18 @@
       <workItem from="1547733012115" duration="1620000" />
       <workItem from="1547819697133" duration="1568000" />
       <workItem from="1548009335535" duration="110000" />
+      <workItem from="1548140303183" duration="33000" />
+      <workItem from="1548166146282" duration="1191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13509000" />
+    <option name="totallyTimeSpent" value="14733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,12 +247,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sections/gallery.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/thumbnail/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sections/about.inc">
       <provider selected="true" editor-type-id="text-editor">
@@ -254,10 +257,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sections/gallery.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="84" column="62" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-957">
-          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+        <state relative-caret-position="141">
+          <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
         </state>
       </provider>
     </entry>
