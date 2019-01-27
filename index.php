@@ -71,13 +71,14 @@
 <?php include("./sections/contact.inc"); ?>
 
 <div class="footer">
-    <div class="container">
-        <div class="row">
+    <div class="section">
+        <div class="container">
+            <div class="row">
             <span>Copyright © <?php echo date("Y"); ?> <a
                         href="#home">Casa Alfarroba</a></span>
-            <span><a href="#home"><i class="fas fa-arrow-circle-up"></i></a></span>
-        </div>
-    </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
 </div>
 
 <script src="js/jquery.min.js" type="text/javascript"></script>
