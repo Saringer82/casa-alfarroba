@@ -1,4 +1,5 @@
-<div id="amenities" class="amenities">
+<a class="anchor" id="amenities"></a>
+<div class="amenities">
     <div class="container">
         <div class="section">
             <h1>Amenities</h1>

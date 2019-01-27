@@ -1,8 +1,9 @@
-<div id="leisure" class="leisure">
+<a class="anchor" id="leisure"></a>
+<div class="leisure">
     <div class="section">
         <div class="container">
             <h1>Leisure</h1>
-            <div class="row">
+            <div class="row equal">
                 <div class="col-sm-3">
                     <div class="thumbnail">
                         <img src="assets/images/attractions.jpg" alt="Attractions">
