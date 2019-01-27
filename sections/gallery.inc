@@ -1,5 +1,5 @@
-<div id="gallery">
-    <div class="container">
+<a class="anchor" id="gallery"></a>
+<div class="container">
         <div class="row">
             <div class="section">
                 <h1>Gallery</h1>
