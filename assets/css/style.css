@@ -20,7 +20,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 1.75rem;
+  line-height: 2.75rem;
   letter-spacing: .08rem;
   margin-bottom: 2rem;
   margin-top: 0rem; }
@@ -94,12 +94,21 @@ header {
       padding: 1rem; }
   .leisure .wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between; }
   .leisure .card {
     position: relative;
-    padding: 2px;
     background: white;
-    width: 23%; }
+    width: 100%;
+    margin-bottom: 2rem; }
+    @media (min-width: 576px) {
+      .leisure .card {
+        width: 48%; } }
+    @media (min-width: 992px) {
+      .leisure .card {
+        padding: 2px;
+        width: 23%;
+        margin-bottom: 0; } }
   .leisure .btn {
     position: absolute;
     bottom: 5px;

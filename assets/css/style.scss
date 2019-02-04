@@ -34,7 +34,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 1.75rem;
+  line-height: 2.75rem;
   letter-spacing: .08rem;
   margin-bottom: 2rem;
   margin-top: 0rem;
@@ -142,14 +142,25 @@ header {
 
   .wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .card {
     position: relative;
-    padding: 2px;
     background: white;
-    width: 23%;
+    width: 100%;
+    margin-bottom: 2rem;
+
+    @media(min-width:576px){
+      width: 48%;
+    }
+
+    @media(min-width:992px){
+      padding: 2px;
+      width: 23%;
+      margin-bottom: 0;
+    }
   }
 
   .btn {
@@ -207,7 +218,6 @@ a.anchor {
 }
 
 //gallery
-
 .tz-gallery {
   padding: 40px;
 }
@@ -233,7 +243,6 @@ a.anchor {
   background-color: transparent !important;
 }
 
-
 @media(max-width: 768px) {
   body {
     padding: 0;
@@ -246,8 +255,6 @@ a.anchor {
 
 //contact
 .contact {
-
-
   .container{
     background-image: url('../../../casa-alfarroba/assets/images/map.png');
     background-color: white;
