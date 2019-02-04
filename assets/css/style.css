@@ -8,12 +8,6 @@ body {
 .section {
   padding: 2rem 0; }
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-
 h1 {
   border-left: 5px solid #003333;
   padding-left: 1rem;
@@ -92,21 +86,6 @@ header {
     border-radius: 0; }
     .leisure .thumbnail .content {
       padding: 1rem; }
-  .leisure .wrapper {
-    display: flex;
-    justify-content: space-between; }
-  .leisure .card {
-    position: relative;
-    padding: 2px;
-    background: white;
-    width: 23%; }
-  .leisure .btn {
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-    width: 50%;
-    text-align: center;
-    margin: 0 25%; }
 
 a.anchor {
   display: block;

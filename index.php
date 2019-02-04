@@ -2,16 +2,26 @@
 <html lang="en">
 <head>
     <title>Casa Alfarroba</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Web Font Embed -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+          rel='stylesheet' type='text/css'>
+
     <!-- Bootstrap core CSS -->
     <link href="./assets/css/bootstrap.css" rel='stylesheet' type='text/css'>
+
     <!-- Styles for this template -->
     <link href="./assets/css/style.css" rel='stylesheet' type='text/css'>
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
     <!--Gallery-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
 </head>
 
 <body>
@@ -73,8 +83,11 @@
 
 <script src="js/jquery.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script src="js/stickUp.min.js" type="text/javascript"></script>
+<script src="js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <script>
     baguetteBox.run('.tz-gallery');
 </script>
