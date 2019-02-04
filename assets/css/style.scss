@@ -19,6 +19,13 @@ body {
   padding: 2rem 0;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
 //Headings
 
 h1 {
@@ -131,6 +138,27 @@ header {
     .content {
       padding: 1rem;
     }
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    position: relative;
+    padding: 2px;
+    background: white;
+    width: 23%;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    margin: 0 25%;
   }
 }
 

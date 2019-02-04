@@ -8,6 +8,12 @@ body {
 .section {
   padding: 2rem 0; }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 h1 {
   border-left: 5px solid #003333;
   padding-left: 1rem;
@@ -44,7 +50,7 @@ h3 {
     background-color: #cccccc; }
 
 header {
-  background: linear-gradient(rgba(0, 51, 51, 0.5), rgba(0, 51, 51, 0.5)), url("../images/hero.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 51, 51, 0.5), rgba(0, 51, 51, 0.5)), url("../../../casa-alfarroba/assets/images/hero.jpg") no-repeat center center fixed;
   background-size: cover;
   height: calc(100vh); }
   header .title {
@@ -86,6 +92,21 @@ header {
     border-radius: 0; }
     .leisure .thumbnail .content {
       padding: 1rem; }
+  .leisure .wrapper {
+    display: flex;
+    justify-content: space-between; }
+  .leisure .card {
+    position: relative;
+    padding: 2px;
+    background: white;
+    width: 23%; }
+  .leisure .btn {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    margin: 0 25%; }
 
 a.anchor {
   display: block;
@@ -142,7 +163,7 @@ a.anchor {
   .container.gallery-container {
     border-radius: 0; } }
 .contact .container {
-  background-image: url("../images/map.png");
+  background-image: url("../../../casa-alfarroba/assets/images/map.png");
   background-color: white;
   background-position: center;
   background-repeat: no-repeat;
