@@ -3,7 +3,7 @@
     <div class="section">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 white">
+                <div class="col-xs-12 col-sm-4 col-md-3 white">
                     <h1>Contact</h1>
                     <p><i class="fas fa-user"></i>David Patterson</p>
                     <p><i class="fas fa-phone"></i>+ 44 (0)1494 722648</p>

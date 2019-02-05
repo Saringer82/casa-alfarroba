@@ -1,6 +1,6 @@
 <a class="anchor" id="gallery"></a>
 <div class="container">
-    <div class="row">
+
         <div class="section">
             <h1>Gallery</h1>
             <div class="tz-gallery">
@@ -86,6 +86,6 @@
                 </div>
             </div>
         </div>
-    </div>
+
 </div>
 
