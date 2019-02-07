@@ -18,7 +18,7 @@
                 <div class="col-sm-4">
                     <img src="assets/images/chess.png" class="image" alt="Garden Chess">
                     <h2>Garden chess set</h2>
-                    <p>3500 square metre formal garden area protected by walls, fencing and electronic gates with plenty
+                    <p>3,500 square metre formal garden area protected by walls, fencing, and electronic gates with plenty
                         of areas to walk and sit in.</p>
                 </div>
             </div>

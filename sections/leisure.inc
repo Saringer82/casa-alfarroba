@@ -13,7 +13,7 @@
                                 capture your heart and imagination in the Algarve.</p>
                         </div>
                     </div>
-                    <button class="btn">View more</button>
+<!--                    <button class="btn">View more</button>-->
                 </div>
                 <div class="card">
                     <div class="thumbnail">
@@ -24,18 +24,18 @@
                                 castles with the family. </p>
                         </div>
                     </div>
-                    <button class="btn">View more</button>
+<!--                    <button class="btn">View more</button>-->
                 </div>
                 <div class="card">
                     <div class="thumbnail">
                         <img src="assets/images/dining.jpg" alt="Dining">
                         <div class="content">
                             <h3 class="text-center">Dining</h3>
-                            <p>Resturants nestled in neighboring towns and situated in the country side. We have some
+                            <p>Discover resturants nestled in neighboring towns and country side. We have some
                                 our our favourites we would love to share with you.</p>
                         </div>
                     </div>
-                    <button class="btn">View more</button>
+<!--                    <button class="btn">View more</button>-->
                 </div>
                 <div class="card">
                     <div class="thumbnail">
@@ -46,7 +46,7 @@
                                 Casa Alfarroba.</p>
                         </div>
                     </div>
-                    <button class="btn">View more</button>
+<!--                    <button class="btn">View more</button>-->
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
