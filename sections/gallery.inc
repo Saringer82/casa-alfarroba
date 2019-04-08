@@ -2,8 +2,8 @@
 <div class="container">
 
         <div class="section">
-            <h1>Gallery</h1>
-            <div class="tz-gallery">
+            <h1 data-aos="fade-in">Gallery</h1>
+            <div class="tz-gallery" data-aos="fade-in">
                 <div class="col-sm-6 col-md-4">
                     <a class="lightbox" href="./assets/gallery/exterior_1.jpg">
                         <img src="./assets/gallery/exterior_1.jpg" alt="Park">

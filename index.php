@@ -8,6 +8,7 @@
     <link href="./assets/css/bootstrap.css" rel='stylesheet' type='text/css'>
     <!-- Styles for this template -->
     <link href="./assets/css/style.css" rel='stylesheet' type='text/css'>
+    <link href="./assets/css/aos.css" rel='stylesheet' type='text/css'>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!--Gallery-->
@@ -27,16 +28,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#home" class="navbar-brand"><img src="assets/images/logo-white.png" alt="Casa Alfarroba"
+                <a href="#home" class="navbar-brand sliding-link"><img src="assets/images/logo-white.png" alt="Casa Alfarroba"
                                                           title="Casa Alfarroba"/></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#amenities">Amenities</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#leisure">Leisure</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="sliding-link" href="#about">About</a></li>
+                    <li><a class="sliding-link" href="#amenities">Amenities</a></li>
+                    <li><a class="sliding-link" href="#gallery">Gallery</a></li>
+                    <li><a class="sliding-link" href="#leisure">Leisure</a></li>
+                    <li><a class="sliding-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -71,12 +72,29 @@
     </div><!-- end section -->
 </div>
 
-<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/aos.js"></script>
+
+<!--<script src="js/jquery.min.js" type="text/javascript"></script>-->
+<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 
 <script>
     baguetteBox.run('.tz-gallery');
+
+    //Initialize AOS
+    AOS.init({
+        easing: 'ease-in-out-sine',
+        // Global settings:
+        disable: 'mobile'
+    });
+
+    $(".sliding-link").click(function(e) {
+        e.preventDefault();
+        var aid = $(this).attr("href");
+        $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+    });
+
 </script>
 </body>
 </html>

@@ -2,9 +2,9 @@
 <div class="leisure">
     <div class="section">
         <div class="container">
-            <h1>Leisure</h1>
+            <h1 data-aos="fade-in">Leisure</h1>
             <div class="wrapper">
-                <div class="card">
+                <div class="card" data-aos="fade-in">
                     <div class="thumbnail">
                         <img src="assets/images/attractions.jpg" alt="Attractions">
                         <div class="content">
@@ -15,7 +15,7 @@
                     </div>
 <!--                    <button class="btn">View more</button>-->
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-in" data-aos-delay="50">
                     <div class="thumbnail">
                         <img src="assets/images/beach.jpg" alt="Beaches">
                         <div class="content">
@@ -26,7 +26,7 @@
                     </div>
 <!--                    <button class="btn">View more</button>-->
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-in" data-aos-delay="100">
                     <div class="thumbnail">
                         <img src="assets/images/dining.jpg" alt="Dining">
                         <div class="content">
@@ -37,7 +37,7 @@
                     </div>
 <!--                    <button class="btn">View more</button>-->
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-in" data-aos-delay="150">
                     <div class="thumbnail">
                         <img src="assets/images/golf.jpg" alt="Golf">
                         <div class="content">

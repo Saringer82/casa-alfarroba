@@ -1,9 +1,9 @@
 <a class="anchor" id="about"></a>
 <div class="container">
     <div class="section">
-        <h1>Welcome</h1>
+        <h1 data-aos="fade-in">Welcome</h1>
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-8" data-aos="fade-in">
                 <p class="lead">Situated in the hills just north of Faro, Casa Alfarroba is located in the rolling
                     country
                     side within a series of homes and farms known as Azinhal e Amendoira.</p>

@@ -4,10 +4,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3 white">
-                    <h1>Contact</h1>
+                    <h1 data-aos="fade-in">Contact</h1>
+                    <div data-aos="fade-in">
                     <p><i class="fas fa-user"></i>David Patterson</p>
                     <p><i class="fas fa-phone"></i>+ 44 (0)1494 722648</p>
                     <p><i class="fas fa-envelope"></i>d.patterson@talk21.com</p>
+                    </div>
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
