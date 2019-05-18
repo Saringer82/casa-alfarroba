@@ -14,13 +14,25 @@ body {
   display: -ms-flexbox;
   display: flex; }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -78px;
+  visibility: hidden; }
+  @media (min-width: 768px) {
+    a.anchor {
+      display: block;
+      position: relative;
+      top: -100px;
+      visibility: hidden; } }
+
 h1 {
   border-left: 5px solid #003333;
   padding-left: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 2.75rem;
+  line-height: 2rem;
   letter-spacing: .08rem;
   margin-bottom: 2rem;
   margin-top: 0rem; }
@@ -62,16 +74,14 @@ header {
     text-align: center;
     text-shadow: .5px .5px #000; }
     header .title h1 {
-      font-size: 2.625rem;
-      border-left: none; }
+      font-size: 10vh;
+      border-left: none;
+      line-height: 11vh; }
     header .title p {
-      font-size: 1.25rem;
+      font-size: 3vh;
       max-width: 600px;
       font-weight: 500;
-      margin: 0; }
-      @media (min-width: 768px) {
-        header .title p {
-          font-size: 2rem; } }
+      margin: 0 auto; }
 
 .amenities {
   background-color: #003333;
@@ -152,12 +162,6 @@ header {
       width: 80px; }
 
 @media (min-width: 768px) {
-  a.anchor {
-    display: block;
-    position: relative;
-    top: -100px;
-    visibility: hidden; }
-
   .top-menu {
     height: 100px; }
     .top-menu .navbar {
@@ -172,6 +176,9 @@ header {
         .top-menu .navbar .navbar-nav li a:hover {
           color: #cccccc;
           background: transparent; }
+        .top-menu .navbar .navbar-nav li a:focus {
+          background-color: transparent;
+          outline: none; }
     .top-menu .navbar-brand {
       padding: 0;
       margin: 7px 0 0 0; }
@@ -205,14 +212,21 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -2rem;
-  margin-bottom: -2rem; }
+  content: '' !important;
+  margin: -2rem auto;
+  transform: translateZ(0px); }
 .contact .white {
   background-color: white;
   padding: 2rem 1rem 4rem 1rem; }
 .contact p {
   font-size: 1.125rem;
   padding: .5rem 0; }
+  @media (min-width: 768px) {
+    .contact p {
+      font-size: 1rem; } }
+  @media (min-width: 1200px) {
+    .contact p {
+      font-size: 1.125rem; } }
   .contact p i {
     padding-right: 1rem; }
 
@@ -225,5 +239,3 @@ header {
     .footer a i {
       font-size: 2rem;
       right: 0; }
-
-/*# sourceMappingURL=style.css.map */

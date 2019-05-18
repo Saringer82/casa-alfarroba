@@ -4,8 +4,37 @@ $primary: #003333;
 $grey: #333333;
 $grey-light: #cccccc;
 
-//Global
+//Keyframes
+//@keyframes fadein {
+//  from {opacity: 0;}
+//  to {opacity: 1;}
+//}
+//
+///* Firefox < 16 */
+//@-moz-keyframes fadein {
+//  from {opacity: 0;}
+//  to {opacity: 1;}
+//}
+//
+///* Safari, Chrome and Opera > 12.1 */
+//@-webkit-keyframes fadein {
+//  from {opacity: 0;}
+//  to {opacity: 1;}
+//}
+//
+///* Internet Explorer */
+//@-ms-keyframes fadein {
+//  from {opacity: 0;}
+//  to {opacity: 1;}
+//}
+//
+///* Opera < 12.1 */
+//@-o-keyframes fadein {
+//  from {opacity: 0;}
+//  to {opacity: 1;}
+//}
 
+//Global
 html {
   font-size: 16px;
 }
@@ -25,6 +54,19 @@ body {
   display: -ms-flexbox;
   display:         flex;
 }
+a.anchor {
+  display: block;
+  position: relative;
+  top: -78px;
+  visibility: hidden;
+
+@media(min-width: 768px) {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+  }
+}
 
 //Headings
 
@@ -34,7 +76,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 2.75rem;
+  line-height: 2rem;
   letter-spacing: .08rem;
   margin-bottom: 2rem;
   margin-top: 0rem;
@@ -87,21 +129,23 @@ header {
     color: white;
     text-align: center;
     text-shadow: .5px .5px #000;
+    //-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    //-moz-animation: fadein 1s; /* Firefox < 16 */
+    //-ms-animation: fadein 1s; /* Internet Explorer */
+    //-o-animation: fadein 1s; /* Opera < 12.1 */
+    //animation: fadein 1s;
 
     h1 {
-      font-size: 2.625rem;
+      font-size: 10vh;
       border-left: none;
+      line-height: 11vh;
     }
 
     p {
-      font-size: 1.25rem;
+      font-size: 3vh;
       max-width: 600px;
       font-weight: 500;
-      margin: 0;
-
-      @media(min-width: 768px) {
-        font-size: 2rem;
-      }
+      margin: 0 auto;
     }
   }
 }
@@ -233,13 +277,6 @@ header {
 
 //Desktop
 @media(min-width: 768px) {
-  a.anchor {
-    display: block;
-    position: relative;
-    top: -100px;
-    visibility: hidden;
-  }
-
   .top-menu {
     height: 100px;
 
@@ -260,6 +297,12 @@ header {
               color: $grey-light;
               background: transparent;
             }
+
+            &:focus {
+              background-color: transparent;
+              outline: none;
+            }
+
           }
         }
       }
@@ -315,8 +358,9 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -2rem;
-    margin-bottom: -2rem;
+    content: '' !important;
+    margin: -2rem auto;
+    transform: translateZ(0px);
   }
 
   .white {
@@ -327,6 +371,13 @@ header {
   p {
     font-size: 1.125rem;
     padding: .5rem 0;
+
+    @media(min-width: 768px) {
+      font-size: 1rem;
+    }
+    @media(min-width: 1200px) {
+      font-size: 1.125rem;
+    }
 
     i {
       padding-right: 1rem;

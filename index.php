@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <title>Casa Alfarroba</title>
+    <meta name="description"
+          content="Casa Alfarroba a beautiful country villa set on a hectare of land in the Eastern Algarve. Situated in the hills just north of Faro, Casa Alfarroba is located in the rolling country side within a series of homes and farms known as Azinhal e Amendoira.">
     <meta charset="UTF-8">
+    <meta name="keywords" content="Alfarroba, Casa, Villa, Algarve, Azinhal e Amendoira">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap core CSS -->
     <link href="./assets/css/bootstrap.css" rel='stylesheet' type='text/css'>
@@ -10,7 +13,8 @@
     <link href="./assets/css/style.css" rel='stylesheet' type='text/css'>
     <link href="./assets/css/aos.css" rel='stylesheet' type='text/css'>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!--Gallery-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 </head>
@@ -28,8 +32,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#home" class="navbar-brand sliding-link"><img src="assets/images/logo-white.png" alt="Casa Alfarroba"
-                                                          title="Casa Alfarroba"/></a>
+                <a href="#home" class="navbar-brand sliding-link"><img src="assets/images/logo-white.png"
+                                                                       alt="Casa Alfarroba"
+                                                                       title="Casa Alfarroba"/></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -89,10 +94,20 @@
         disable: 'mobile'
     });
 
-    $(".sliding-link").click(function(e) {
+    //Slide on click
+    $(".sliding-link").click(function (e) {
         e.preventDefault();
         var aid = $(this).attr("href");
-        $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+        $('html,body').animate({scrollTop: $(aid).offset().top}, 'slow');
+    });
+
+    //Menu close
+    $(function () {
+        var navMain = $(".navbar-collapse");
+
+        navMain.on("click", "a", null, function () {
+            navMain.collapse('hide');
+        });
     });
 
 </script>
